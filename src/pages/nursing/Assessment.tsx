@@ -4,16 +4,14 @@ import ContentSection from "@/components/ui/ContentSection";
 import SideNav from "@/components/ui/SideNav";
 import AlertBox from "@/components/ui/AlertBox";
 import { nursingNavItems } from "@/data/navigation";
-
 const NursingAssessment = () => {
-  return (
-    <Layout>
-      <PageHeader
-        title="Daily Heart Failure Nursing Assessment and Red Flags"
-        subtitle="Vigilant assessment for detecting early signs of clinical change."
-        discipline="nursing"
-        breadcrumbs={[{ label: "Nursing", href: "/nursing/assessment" }, { label: "Daily Assessment" }]}
-      />
+  return <Layout>
+      <PageHeader title="Daily Heart Failure Nursing Assessment and Red Flags" subtitle="Vigilant assessment for detecting early signs of clinical change." discipline="nursing" breadcrumbs={[{
+      label: "Nursing",
+      href: "/nursing/assessment"
+    }, {
+      label: "Daily Assessment"
+    }]} />
 
       <div className="container mx-auto px-4 py-8">
         <div className="grid lg:grid-cols-[250px_1fr] gap-8">
@@ -81,7 +79,7 @@ const NursingAssessment = () => {
                   <ul className="list-disc pl-6 text-red-800 space-y-2">
                     <li>Unrelieved shortness of breath while at rest</li>
                     <li>Wheezing or chest tightness at rest</li>
-                    <li>Weight gain of more than 5 pounds in 2 days</li>
+                    
                     <li>New confusion or inability to think clearly</li>
                   </ul>
                 </div>
@@ -95,8 +93,6 @@ const NursingAssessment = () => {
           </article>
         </div>
       </div>
-    </Layout>
-  );
+    </Layout>;
 };
-
 export default NursingAssessment;
