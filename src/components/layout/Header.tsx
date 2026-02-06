@@ -25,7 +25,7 @@ const Header = () => {
               alt="Presbyterian"
               className="h-6 brightness-0 invert transition-opacity group-hover:opacity-80"
             />
-            <span className="hidden sm:inline text-lg font-semibold flex" style="justify-content: flex-end;">
+            <span className="hidden sm:inline text-lg font-semibold">
               Heart Failure Care
             </span>
           </Link>
