@@ -60,7 +60,7 @@ const Diuresis = () => {
                 <strong>Monitoring:</strong> Track daily weight, urine output, electrolytes, and renal function; adjust
                 based on response and tolerability.
               </p>
-              <AlertBox type="info">Twice daily BMP and Mg should be monitored for diuretic infusions.</AlertBox>
+              <AlertBox type="warning">Twice daily BMP and Mg should be monitored for diuretic infusions.</AlertBox>
             </ContentSection>
 
             <ContentSection title="Addition of Acetazolamide">
