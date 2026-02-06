@@ -20,12 +20,14 @@ const Header = () => {
         <div className="flex h-16 items-center justify-between">
           {/* Logo */}
           <Link to="/" className="flex items-end gap-3 group">
-            <img 
-              src={presbyterianLogo} 
-              alt="Presbyterian" 
+            <img
+              src={presbyterianLogo}
+              alt="Presbyterian"
               className="h-6 brightness-0 invert transition-opacity group-hover:opacity-80"
             />
-            <span className="hidden sm:inline text-lg font-semibold">Heart Failure Care</span>
+            <span className="hidden sm:inline text-lg font-semibold flex" style="justify-content: flex-end;">
+              Heart Failure Care
+            </span>
           </Link>
 
           {/* Desktop Navigation */}
