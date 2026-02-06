@@ -40,7 +40,8 @@ const medicationData = [
   {
     drugClass: "Class I and III Antiarrhythmics",
     examples: "Flecainide, Sotalol, Dronedarone",
-    mechanism: "Can have proarrhythmic and/or negative inotropic effects. Amiodarone and dofetilide have shown neutral effects on mortality in HFrEF trials.",
+    mechanism:
+      "Can have proarrhythmic and/or negative inotropic effects. Amiodarone and dofetilide have shown neutral effects on mortality in HFrEF trials.",
   },
 ];
 
@@ -51,10 +52,7 @@ const MedicationsToAvoid = () => {
         title="Medications to Avoid in Heart Failure"
         subtitle="Critical medication safety review for HF patients."
         discipline="provider"
-        breadcrumbs={[
-          { label: "Providers", href: "/providers/ordersets" },
-          { label: "Medications to Avoid" },
-        ]}
+        breadcrumbs={[{ label: "Providers", href: "/providers/ordersets" }, { label: "Medications to Avoid" }]}
       />
 
       <div className="container mx-auto px-4 py-8">
@@ -66,7 +64,9 @@ const MedicationsToAvoid = () => {
           <article className="max-w-4xl">
             <ContentSection>
               <p className="text-lg mb-6">
-                A meticulous review of a patient's medication list is a <strong>critical safety step</strong> upon admission. Certain common medications can exacerbate heart failure by causing sodium and water retention, increasing systemic vascular resistance, or exerting direct negative inotropic effects.
+                A meticulous review of a patient's medication list is a <strong>critical safety step</strong> upon
+                admission. Certain common medications can exacerbate heart failure by causing sodium and water
+                retention, increasing systemic vascular resistance, or exerting direct negative inotropic effects.
               </p>
             </ContentSection>
 
@@ -81,12 +81,9 @@ const MedicationsToAvoid = () => {
               />
 
               <AlertBox type="danger" title="Critical Action">
-                A thorough medication reconciliation on admission is essential to identify and discontinue these and other potentially harmful agents.
+                A thorough medication reconciliation on admission is essential to identify and discontinue these and
+                other potentially harmful agents.
               </AlertBox>
-
-              <p className="text-muted-foreground italic">
-                From this broad medication review, the focus must narrow to consider underlying cardiac conditions and advanced disease.
-              </p>
             </ContentSection>
           </article>
         </div>
