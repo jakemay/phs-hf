@@ -25,9 +25,7 @@ const Header = () => {
               alt="Presbyterian" 
               className="h-6 brightness-0 invert transition-opacity group-hover:opacity-80"
             />
-            <div className="hidden sm:block">
-              <p className="text-lg font-semibold leading-tight">Heart Failure Care</p>
-            </div>
+            <span className="hidden sm:inline text-lg font-semibold">Heart Failure Care</span>
           </Link>
 
           {/* Desktop Navigation */}
