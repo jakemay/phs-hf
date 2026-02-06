@@ -12,10 +12,7 @@ const NursingGDMT = () => {
         title="Nursing Role in Guideline Directed Medical Therapy"
         subtitle="High-priority nursing tasks for diuretics and GDMT management."
         discipline="nursing"
-        breadcrumbs={[
-          { label: "Nursing", href: "/nursing/assessment" },
-          { label: "GDMT Nursing Role" },
-        ]}
+        breadcrumbs={[{ label: "Nursing", href: "/nursing/assessment" }, { label: "GDMT Nursing Role" }]}
       />
 
       <div className="container mx-auto px-4 py-8">
@@ -25,15 +22,22 @@ const NursingGDMT = () => {
           </aside>
 
           <article className="max-w-4xl">
-            <ContentSection title="3.2.1 Diuretics: High-Priority Inpatient Nursing Tasks">
+            <ContentSection title="Diuretics: High-Priority Inpatient Nursing Tasks">
               <p className="mb-4">
                 Diuretics are actively titrated during hospitalization and depend on accurate nursing data.
               </p>
 
               <ul className="list-disc pl-6 mb-6 space-y-2">
-                <li><strong>Strict I/O</strong> on all HF admissions</li>
-                <li><strong>Daily standing weight</strong> every morning (same scale; no bed weights unless unable to stand)</li>
-                <li><strong>Timely documentation</strong> of urine output after IV diuretics</li>
+                <li>
+                  <strong>Strict I/O</strong> on all HF admissions
+                </li>
+                <li>
+                  <strong>Daily standing weight</strong> every morning (same scale; no bed weights unless unable to
+                  stand)
+                </li>
+                <li>
+                  <strong>Timely documentation</strong> of urine output after IV diuretics
+                </li>
               </ul>
 
               <p className="font-semibold mb-2">Notify PHG of:</p>
@@ -44,24 +48,37 @@ const NursingGDMT = () => {
               </ul>
             </ContentSection>
 
-            <ContentSection title="3.2.2 GDMT Overview">
+            <ContentSection title="GDMT Overview">
               <p className="mb-4">
-                Most hospitalized HF patients should remain on GDMT during admission. These medications reduce mortality and readmissions and are commonly <strong>adjusted—not stopped</strong>—while inpatient.
+                Most hospitalized HF patients should remain on GDMT during admission. These medications reduce mortality
+                and readmissions and are commonly <strong>adjusted—not stopped</strong>—while inpatient.
               </p>
 
               <ul className="list-disc pl-6 mb-6 space-y-2">
-                <li><strong>ARNI / ACE inhibitor / ARB</strong> – continue if hemodynamically stable</li>
-                <li><strong>Evidence-based beta blocker</strong> (carvedilol, metoprolol succinate, bisoprolol) – continue unless in shock or severe bradycardia</li>
-                <li><strong>Mineralocorticoid receptor antagonist (MRA)</strong> – monitor potassium and renal function closely</li>
-                <li><strong>SGLT2 inhibitor</strong> – continue or initiate if ordered; low hypoglycemia risk even without diabetes</li>
+                <li>
+                  <strong>ARNI / ACE inhibitor / ARB</strong> – continue if hemodynamically stable
+                </li>
+                <li>
+                  <strong>Evidence-based beta blocker</strong> (carvedilol, metoprolol succinate, bisoprolol) – continue
+                  unless in shock or severe bradycardia
+                </li>
+                <li>
+                  <strong>Mineralocorticoid receptor antagonist (MRA)</strong> – monitor potassium and renal function
+                  closely
+                </li>
+                <li>
+                  <strong>SGLT2 inhibitor</strong> – continue or initiate if ordered; low hypoglycemia risk even without
+                  diabetes
+                </li>
               </ul>
 
               <AlertBox type="info" title="HFpEF">
-                Focus is on SGLT2 inhibitors, MRAs, and aggressive congestion management with diuretics, along with blood pressure control and treatment of comorbidities.
+                Focus is on SGLT2 inhibitors, MRAs, and aggressive congestion management with diuretics, along with
+                blood pressure control and treatment of comorbidities.
               </AlertBox>
             </ContentSection>
 
-            <ContentSection title="3.2.3 Medication Holding — Inpatient Policy">
+            <ContentSection title="Medication Holding — Inpatient Policy">
               <AlertBox type="danger" title="Critical Policy">
                 Do NOT hold GDMT medications without direct communication with PHG, except for emergencies.
               </AlertBox>

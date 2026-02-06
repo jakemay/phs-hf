@@ -12,10 +12,7 @@ const NursingDischarge = () => {
         title="Discharge Teaching and Transition of Care Checklist"
         subtitle="Empowering patients for safe self-management at home."
         discipline="nursing"
-        breadcrumbs={[
-          { label: "Nursing", href: "/nursing/assessment" },
-          { label: "Discharge Teaching" },
-        ]}
+        breadcrumbs={[{ label: "Nursing", href: "/nursing/assessment" }, { label: "Discharge Teaching" }]}
       />
 
       <div className="container mx-auto px-4 py-8">
@@ -27,34 +24,46 @@ const NursingDischarge = () => {
           <article className="max-w-4xl">
             <ContentSection>
               <p className="text-lg mb-6">
-                Discharge teaching is not a single event but a <strong>comprehensive process</strong> that begins on admission and culminates in empowering the patient for safe self-management at home. The nurse plays a vital role in preventing medication errors and ensuring continuity of care.
+                Discharge teaching is not a single event but a <strong>comprehensive process</strong> that begins on
+                admission and culminates in empowering the patient for safe self-management at home. The nurse plays a
+                vital role in preventing medication errors and ensuring continuity of care.
               </p>
             </ContentSection>
 
-            <ContentSection title="3.8.1 Sodium Guidance at Discharge">
+            <ContentSection title="Sodium Guidance at Discharge">
               <div className="bg-muted/50 rounded-xl p-5 mb-4">
                 <p className="italic font-medium mb-2">"You do not need an extreme low-salt diet."</p>
-                <p className="mb-2">Target: ≈2,000–3,000 mg sodium per day, unless a different goal is written in your discharge instructions.</p>
+                <p className="mb-2">
+                  Target: ≈2,000–3,000 mg sodium per day, unless a different goal is written in your discharge
+                  instructions.
+                </p>
                 <p>Focus on avoiding very high-salt foods, not eliminating salt entirely.</p>
               </div>
 
               <h4 className="font-semibold mb-2">Practical Nurse Teaching Points</h4>
-              <p className="mb-2"><strong>Review:</strong></p>
+              <p className="mb-2">
+                <strong>Review:</strong>
+              </p>
               <ul className="list-disc pl-6 mb-4 space-y-1">
                 <li>Common high-salt foods (processed meats, canned soups, fast food)</li>
                 <li>How to read food labels (mg sodium per serving)</li>
               </ul>
 
-              <p className="mb-2"><strong>Reinforce:</strong></p>
+              <p className="mb-2">
+                <strong>Reinforce:</strong>
+              </p>
               <p className="mb-4">Adequate nutrition is important—patients should eat regularly.</p>
 
-              <p className="mb-2"><strong>Use teach-back:</strong></p>
+              <p className="mb-2">
+                <strong>Use teach-back:</strong>
+              </p>
               <p className="italic">"Can you tell me one food you'll try to limit because of salt?"</p>
             </ContentSection>
 
-            <ContentSection title="3.8.2 Fluid Guidance at Discharge">
+            <ContentSection title="Fluid Guidance at Discharge">
               <AlertBox type="info" title="Key Principle">
-                Fluid restriction used in the hospital is usually temporary. Most patients go home on liberalized fluids unless a restriction is clearly prescribed.
+                Fluid restriction used in the hospital is usually temporary. Most patients go home on liberalized fluids
+                unless a restriction is clearly prescribed.
               </AlertBox>
 
               <div className="grid md:grid-cols-2 gap-4 mt-4">
@@ -77,7 +86,7 @@ const NursingDischarge = () => {
               </div>
             </ContentSection>
 
-            <ContentSection title="3.8.3 Daily Weights: The Anchor Behavior">
+            <ContentSection title="Daily Weights: The Anchor Behavior">
               <p className="mb-4 font-medium">
                 Daily weights are more important than diet rules for early detection of fluid retention.
               </p>
@@ -96,36 +105,41 @@ const NursingDischarge = () => {
               </AlertBox>
             </ContentSection>
 
-            <ContentSection title="3.8.4 Nursing Discharge Teaching Checklist">
+            <ContentSection title="Nursing Discharge Teaching Checklist">
               <div className="space-y-3">
                 <div className="flex items-start gap-3 p-3 bg-card border border-border rounded-lg">
                   <input type="checkbox" className="mt-1" disabled />
                   <div>
-                    <strong>Medications:</strong> Review each medication, its purpose, dose, and key side effects. Provide a clear, written medication list.
+                    <strong>Medications:</strong> Review each medication, its purpose, dose, and key side effects.
+                    Provide a clear, written medication list.
                   </div>
                 </div>
                 <div className="flex items-start gap-3 p-3 bg-card border border-border rounded-lg">
                   <input type="checkbox" className="mt-1" disabled />
                   <div>
-                    <strong>Diet:</strong> Reiterate the specific sodium and any fluid restriction guidelines as described above.
+                    <strong>Diet:</strong> Reiterate the specific sodium and any fluid restriction guidelines as
+                    described above.
                   </div>
                 </div>
                 <div className="flex items-start gap-3 p-3 bg-card border border-border rounded-lg">
                   <input type="checkbox" className="mt-1" disabled />
                   <div>
-                    <strong>Activity:</strong> Discuss recommended activity levels, any restrictions, and the plan for cardiac rehabilitation.
+                    <strong>Activity:</strong> Discuss recommended activity levels, any restrictions, and the plan for
+                    cardiac rehabilitation.
                   </div>
                 </div>
                 <div className="flex items-start gap-3 p-3 bg-card border border-border rounded-lg">
                   <input type="checkbox" className="mt-1" disabled />
                   <div>
-                    <strong>Follow-up:</strong> Confirm the patient and/or caregiver knows the exact date, time, and location of their scheduled follow-up appointment.
+                    <strong>Follow-up:</strong> Confirm the patient and/or caregiver knows the exact date, time, and
+                    location of their scheduled follow-up appointment.
                   </div>
                 </div>
                 <div className="flex items-start gap-3 p-3 bg-card border border-border rounded-lg">
                   <input type="checkbox" className="mt-1" disabled />
                   <div>
-                    <strong>Symptom Monitoring:</strong> Review the use of the daily weight log and the "Yellow Zone/Red Zone" action plan one final time.
+                    <strong>Symptom Monitoring:</strong> Review the use of the daily weight log and the "Yellow Zone/Red
+                    Zone" action plan one final time.
                   </div>
                 </div>
                 <div className="flex items-start gap-3 p-3 bg-card border border-border rounded-lg">
@@ -137,7 +151,8 @@ const NursingDischarge = () => {
               </div>
 
               <AlertBox type="success" title="Teach-Back Method">
-                The "teach-back" method should be used to confirm that the patient and caregiver can verbalize their understanding of the key components of the discharge plan.
+                The "teach-back" method should be used to confirm that the patient and caregiver can verbalize their
+                understanding of the key components of the discharge plan.
               </AlertBox>
             </ContentSection>
           </article>

@@ -11,10 +11,7 @@ const Diuretics = () => {
         title="IV Diuretic Administration and Monitoring"
         subtitle="Safe and effective administration of intravenous diuretics."
         discipline="nursing"
-        breadcrumbs={[
-          { label: "Nursing", href: "/nursing/assessment" },
-          { label: "IV Diuretic Monitoring" },
-        ]}
+        breadcrumbs={[{ label: "Nursing", href: "/nursing/assessment" }, { label: "IV Diuretic Monitoring" }]}
       />
 
       <div className="container mx-auto px-4 py-8">
@@ -26,20 +23,24 @@ const Diuretics = () => {
           <article className="max-w-4xl">
             <ContentSection>
               <p className="text-lg mb-6">
-                The nurse plays a pivotal role in the safe and effective administration of intravenous (IV) diuretics. This responsibility encompasses not just medication administration, but also close monitoring of the patient's response and proactive surveillance for potential side effects.
+                The nurse plays a pivotal role in the safe and effective administration of intravenous (IV) diuretics.
+                This responsibility encompasses not just medication administration, but also close monitoring of the
+                patient's response and proactive surveillance for potential side effects.
               </p>
 
               <p className="mb-6">
-                The purpose of IV diuretics is to achieve <strong>decongestion</strong> by removing excess fluid, thereby improving symptoms like dyspnea and edema.
+                The purpose of IV diuretics is to achieve <strong>decongestion</strong> by removing excess fluid,
+                thereby improving symptoms like dyspnea and edema.
               </p>
             </ContentSection>
 
-            <ContentSection title="3.4.1 Key Nursing Monitoring During IV Diuresis">
+            <ContentSection title="Key Nursing Monitoring During IV Diuresis">
               <div className="grid gap-6 md:grid-cols-2">
                 <div className="bg-card border border-border rounded-xl p-5">
                   <h4 className="font-semibold text-lg mb-2">Efficacy</h4>
                   <p className="text-sm text-muted-foreground">
-                    Monitor urine output closely, expecting a significant increase. Assess for clinical symptom improvement, such as easier breathing and decreased edema.
+                    Monitor urine output closely, expecting a significant increase. Assess for clinical symptom
+                    improvement, such as easier breathing and decreased edema.
                   </p>
                 </div>
 
@@ -53,20 +54,23 @@ const Diuretics = () => {
                 <div className="bg-card border border-border rounded-xl p-5">
                   <h4 className="font-semibold text-lg mb-2">Electrolytes</h4>
                   <p className="text-sm text-muted-foreground">
-                    Be vigilant for signs of electrolyte imbalances, particularly hypokalemia, a common side effect of loop diuretics.
+                    Be vigilant for signs of electrolyte imbalances, particularly hypokalemia, a common side effect of
+                    loop diuretics.
                   </p>
                 </div>
 
                 <div className="bg-card border border-border rounded-xl p-5">
                   <h4 className="font-semibold text-lg mb-2">Renal Function</h4>
                   <p className="text-sm text-muted-foreground">
-                    Monitor trends in serum creatinine and BUN. A rapid rise may indicate over-diuresis or worsening renal perfusion.
+                    Monitor trends in serum creatinine and BUN. A rapid rise may indicate over-diuresis or worsening
+                    renal perfusion.
                   </p>
                 </div>
               </div>
 
               <p className="mt-6 text-muted-foreground italic">
-                This focused monitoring of diuretic effects occurs within the broader context of continuous surveillance of the patient's hemodynamic and electrical stability.
+                This focused monitoring of diuretic effects occurs within the broader context of continuous surveillance
+                of the patient's hemodynamic and electrical stability.
               </p>
             </ContentSection>
           </article>
