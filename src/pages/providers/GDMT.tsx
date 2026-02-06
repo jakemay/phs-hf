@@ -37,7 +37,7 @@ const GDMT = () => {
               </p>
             </ContentSection>
 
-            <ContentSection title="2.5.1 The Four Foundational Medication Classes for HFrEF">
+            <ContentSection title="The Four Foundational Medication Classes for HFrEF">
               <p className="mb-4">
                 Guideline-Directed Medical Therapy for Heart Failure with reduced Ejection Fraction (HFrEF, LVEF ≤40%)
                 is built upon four pillars:
