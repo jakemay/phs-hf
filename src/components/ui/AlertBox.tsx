@@ -35,6 +35,14 @@ const AlertBox = ({
 }: AlertBoxProps) => {
   const styles = alertStyles[type];
   const Icon = styles.icon;
-  return;
+  return (
+    <div className={cn("border rounded-lg p-4 flex gap-3", styles.container)}>
+      <Icon className={cn("h-5 w-5 flex-shrink-0 mt-0.5", styles.iconColor)} />
+      <div className="flex-1">
+        {title && <h4 className="font-semibold mb-1">{title}</h4>}
+        <div className="text-sm">{children}</div>
+      </div>
+    </div>
+  );
 };
 export default AlertBox;
