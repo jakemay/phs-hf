@@ -1,7 +1,8 @@
 import { Link } from "react-router-dom";
-import { Heart, Menu, X } from "lucide-react";
+import { Menu, X } from "lucide-react";
 import { useState } from "react";
 import { Button } from "@/components/ui/button";
+import presbyterianLogo from "@/assets/presbyterian-logo.svg";
 
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -19,12 +20,13 @@ const Header = () => {
         <div className="flex h-16 items-center justify-between">
           {/* Logo */}
           <Link to="/" className="flex items-center gap-3 group">
-            <div className="flex h-10 w-10 items-center justify-center rounded-lg bg-accent transition-transform group-hover:scale-105">
-              <Heart className="h-6 w-6 text-accent-foreground" />
-            </div>
+            <img 
+              src={presbyterianLogo} 
+              alt="Presbyterian" 
+              className="h-6 brightness-0 invert transition-opacity group-hover:opacity-80"
+            />
             <div className="hidden sm:block">
-              <p className="text-lg font-serif font-semibold leading-tight">PHG Clinical Guidance</p>
-              <p className="text-xs text-primary-foreground/70">Heart Failure Care</p>
+              <p className="text-lg font-semibold leading-tight">Heart Failure Care</p>
             </div>
           </Link>
 
