@@ -70,7 +70,7 @@ const MedicationsToAvoid = () => {
               </p>
             </ContentSection>
 
-            <ContentSection title="2.7.1 Drugs That May Cause or Exacerbate Heart Failure">
+            <ContentSection title="Drugs That May Cause or Exacerbate Heart Failure">
               <ClinicalTable
                 columns={[
                   { key: "drugClass", header: "Drug Class" },
