@@ -74,13 +74,9 @@ const GDMT = () => {
 
               <AlertBox type="warning" title="Important Note">
                 These medications are not strictly for blood pressure control and should be initiated even if the
-                patient is normotensive.
+                patient is normotensive. Successfully optimizing GDMT requires anticipating and managing common clinical
+                challenges such as hypotension and renal dysfunction.
               </AlertBox>
-
-              <p className="mt-4 text-muted-foreground italic">
-                Successfully optimizing GDMT requires anticipating and managing common clinical challenges such as
-                hypotension and renal dysfunction.
-              </p>
             </ContentSection>
           </article>
         </div>
