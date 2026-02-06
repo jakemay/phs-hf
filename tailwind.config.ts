@@ -26,12 +26,13 @@ export default {
 			],
 			serif: [
 				'Roboto',
-				'ui-serif',
-				'Georgia',
-				'Cambria',
-				'Times New Roman',
-				'Times',
-				'serif'
+				'ui-sans-serif',
+				'system-ui',
+				'sans-serif',
+				'Apple Color Emoji',
+				'Segoe UI Emoji',
+				'Segoe UI Symbol',
+				'Noto Color Emoji'
 			],
 			mono: [
 				'Roboto Mono',
