@@ -63,7 +63,7 @@ const Diuresis = () => {
               <AlertBox type="info">Twice daily BMP and Mg should be monitored for diuretic infusions.</AlertBox>
             </ContentSection>
 
-            <ContentSection title="2.4.2 Addition of Acetazolamide">
+            <ContentSection title="Addition of Acetazolamide">
               <p className="mb-4">
                 <strong>Indication:</strong> Add for inadequate response to loop diuretics or to enhance diuretic
                 efficiency.
@@ -77,7 +77,7 @@ const Diuresis = () => {
               </p>
             </ContentSection>
 
-            <ContentSection title="2.4.3 Addition of Thiazide Diuretics">
+            <ContentSection title="Addition of Thiazide Diuretics">
               <p className="mb-4">
                 <strong>Indication:</strong> Use for persistent congestion despite adequate loop diuretic therapy
                 (sequential nephron blockade).
@@ -91,7 +91,7 @@ const Diuresis = () => {
               </AlertBox>
             </ContentSection>
 
-            <ContentSection title="2.4.4 Essential Monitoring During Active Diuresis">
+            <ContentSection title="Essential Monitoring During Active Diuresis">
               <ul className="list-disc pl-6 space-y-2">
                 <li>Vigilant and accurate tracking of fluid intake and output (I/O)</li>
                 <li>Accurate daily weights, performed at the same time each day using the same scale</li>
