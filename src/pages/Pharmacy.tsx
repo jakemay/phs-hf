@@ -22,7 +22,7 @@ const Pharmacy = () => {
 
       <div className="container mx-auto px-4 py-8">
         <article className="max-w-4xl mx-auto">
-          <ContentSection title="4.1 Medication Reconciliation on Admission and Discharge">
+          <ContentSection title="Medication Reconciliation on Admission and Discharge">
             <p className="mb-4">
               Medication reconciliation is a <strong>critical safety process</strong> and a core pharmacist
               responsibility. It serves a strategic role in preventing adverse drug events, identifying medications that
@@ -38,7 +38,7 @@ const Pharmacy = () => {
             </p>
           </ContentSection>
 
-          <ContentSection title="4.2 Optimization of GDMT Dosing and Drug Interactions">
+          <ContentSection title="Optimization of GDMT Dosing and Drug Interactions">
             <p className="mb-4">
               The clinical pharmacist plays a central role in translating guideline recommendations into safe and
               effective patient-specific regimens.
@@ -58,7 +58,7 @@ const Pharmacy = () => {
             </ul>
           </ContentSection>
 
-          <ContentSection title="4.3 Diuretic Equivalence, Resistance, and Adjunctive Therapies">
+          <ContentSection title="Diuretic Equivalence, Resistance, and Adjunctive Therapies">
             <ClinicalTable
               caption="Oral Loop Diuretic Dosing Guide"
               columns={[
@@ -74,7 +74,7 @@ const Pharmacy = () => {
             </p>
           </ContentSection>
 
-          <ContentSection title="4.4 Renal Function and Electrolyte Management">
+          <ContentSection title="Renal Function and Electrolyte Management">
             <p className="mb-4">Key monitoring requirements:</p>
             <ul className="list-disc pl-6 space-y-2">
               <li>
@@ -86,7 +86,7 @@ const Pharmacy = () => {
             </ul>
           </ContentSection>
 
-          <ContentSection title="4.5 Anticoagulation and Antiplatelet Considerations">
+          <ContentSection title="Anticoagulation and Antiplatelet Considerations">
             <p className="mb-4">
               <strong>VTE Prophylaxis:</strong> Prophylactic anticoagulation with enoxaparin or unfractionated heparin
               is recommended.
@@ -97,7 +97,7 @@ const Pharmacy = () => {
             </p>
           </ContentSection>
 
-          <ContentSection title="4.6 Patient Counseling and Adherence Support">
+          <ContentSection title="Patient Counseling and Adherence Support">
             <ul className="list-disc pl-6 space-y-2">
               <li>
                 <strong>Medication Purpose:</strong> Explain why each medication is important
@@ -114,7 +114,7 @@ const Pharmacy = () => {
             </ul>
           </ContentSection>
 
-          <ContentSection title="4.7 Prior Authorization and Access to HF Medications">
+          <ContentSection title="Prior Authorization and Access to HF Medications">
             <AlertBox type="info" title="PHG Resource">
               The Epic chat group <strong>CDS PHG Heart Failure Transition of Care Managers</strong> can help facilitate
               outpatient PA and copay assistance.
