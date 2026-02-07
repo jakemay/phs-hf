@@ -50,13 +50,13 @@ const Phenotyping = () => {
             <SideNav items={providerNavItems} discipline="provider" />
           </aside>
 
-          <AlertBox type="warning" title="PHG Consultation">
-            Consultation with the PHG Heart Failure service is appropriate for all decompensated patients, particularly
-            those presenting as "Cold and Wet" (Profile IV).
-          </AlertBox>
-
           <article className="max-w-4xl">
             <ContentSection>
+              <AlertBox type="warning" title="PHG Consultation">
+                Consultation with the PHG Heart Failure service is appropriate for all decompensated patients,
+                particularly those presenting as "Cold and Wet" (Profile IV).
+              </AlertBox>
+
               <p className="text-lg mb-6">
                 Accurately classifying a patient's heart failure presentation upon admission is the foundational step
                 for tailoring initial therapy and predicting the clinical course. This requires distinguishing between
