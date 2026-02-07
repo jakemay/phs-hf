@@ -29,6 +29,14 @@ const Footer = () => {
             <Link to="/therapy" className="hover:text-primary-foreground transition-colors">
               PT/OT
             </Link>
+            <a 
+              href="https://www.phscenter.org/" 
+              target="_blank" 
+              rel="noopener noreferrer"
+              className="hover:text-primary-foreground transition-colors"
+            >
+              The Center
+            </a>
           </div>
         </div>
 
