@@ -45,7 +45,7 @@ const Discharge = () => {
                 </li>
                 <li>GDMT has been optimized or clear plan for outpatient optimization exists</li>
                 <li>Patient and/or caregiver has received comprehensive education</li>
-                <li>Follow-up appointment scheduled within 7 days</li>
+                <li>Follow-up appointment scheduled ASAP, ideally within 14 days</li>
                 <li>Medication reconciliation completed</li>
               </ul>
             </ContentSection>
