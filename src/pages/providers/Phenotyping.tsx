@@ -54,7 +54,7 @@ const Phenotyping = () => {
             <ContentSection>
               <AlertBox type="warning" title="PHG Consultation">
                 Consultation with the PHG Heart Failure service is appropriate for all decompensated patients,
-                particularly those presenting as "Cold and Wet" (Profile IV).
+                particularly those presenting as "Cold and Dry" (Profile III) and "Cold and Wet" (Profile IV).
               </AlertBox>
 
               <br></br>
