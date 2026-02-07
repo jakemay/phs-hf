@@ -23,16 +23,18 @@ const Diuresis = () => {
           </aside>
 
           <article className="max-w-4xl">
+            <AlertBox type="danger" title="Critical Escalation">
+              If inadequate urine output (&lt;150 mL/hr over the first 6 hours) occurs after the first dose, immediately
+              escalate to ensure decongestion.
+            </AlertBox>
+
+            <br></br>
+
             <ContentSection>
               <p className="text-lg mb-4">
                 Diuresis is the cornerstone of therapy for the majority of patients hospitalized with congestive heart
                 failure. The primary goal is to achieve euvolemia to relieve symptoms such as dyspnea and edema.
               </p>
-
-              <AlertBox type="danger" title="Critical Escalation">
-                If inadequate urine output (&lt;150 mL/hr over the first 6 hours) occurs after the first dose,
-                immediately escalate to ensure decongestion.
-              </AlertBox>
 
               <p className="mb-4">
                 <strong>Intravenous (IV) loop diuretics</strong> (e.g., furosemide, bumetanide) are the preferred agents
