@@ -4,8 +4,8 @@ import DisciplineCard from "@/components/ui/DisciplineCard";
 import ContactTable from "@/components/ui/ContactTable";
 
 const providerLinks = [
-  { title: "Epic Ordersets", href: "/providers/ordersets" },
   { title: "Admission Phenotyping", href: "/providers/phenotyping" },
+  { title: "Epic Ordersets", href: "/providers/ordersets" },
   { title: "Initial Evaluation & Risk", href: "/providers/evaluation" },
   { title: "Diuresis Strategies", href: "/providers/diuresis" },
   { title: "GDMT Management", href: "/providers/gdmt" },
@@ -67,7 +67,7 @@ const Index = () => {
             title="Providers (MD/DO/APC)"
             description="Evidence-based guidance for diagnosis, risk stratification, diuresis strategies, GDMT optimization, and management of complex HF presentations."
             icon={Stethoscope}
-            href="/providers/ordersets"
+            href="/providers/phenotyping"
             discipline="provider"
             subLinks={providerLinks}
           />
