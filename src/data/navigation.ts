@@ -1,6 +1,6 @@
 export const providerNavItems = [
-  { title: "Epic Ordersets", href: "/providers/ordersets", section: "Workup & Diagnosis" },
   { title: "Admission Phenotyping", href: "/providers/phenotyping", section: "Workup & Diagnosis" },
+  { title: "Epic Ordersets", href: "/providers/ordersets", section: "Workup & Diagnosis" },
   { title: "HF Exacerbation Causes", href: "/providers/exacerbations", section: "Workup & Diagnosis" },
   { title: "Initial Evaluation & Risk", href: "/providers/evaluation", section: "Workup & Diagnosis" },
   { title: "Diuresis Strategies", href: "/providers/diuresis", section: "Treatment" },
