@@ -2,6 +2,7 @@ import Layout from "@/components/layout/Layout";
 import PageHeader from "@/components/ui/PageHeader";
 import ContentSection from "@/components/ui/ContentSection";
 import SideNav from "@/components/ui/SideNav";
+import MobileBottomNav from "@/components/ui/MobileBottomNav";
 import AlertBox from "@/components/ui/AlertBox";
 import { providerNavItems } from "@/data/navigation";
 
@@ -71,6 +72,8 @@ const Discharge = () => {
                 The Epic chat group <strong>CDS PHG Heart Failure Transition of Care Managers</strong> is staffed by skilled HF Registered Nurses (RNs). They assist providers, nurses, and PT/OT with patient education and discharge planning.
               </AlertBox>
             </ContentSection>
+
+            <MobileBottomNav items={providerNavItems} discipline="provider" />
           </article>
         </div>
       </div>

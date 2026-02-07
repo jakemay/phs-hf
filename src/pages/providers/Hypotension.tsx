@@ -2,6 +2,7 @@ import Layout from "@/components/layout/Layout";
 import PageHeader from "@/components/ui/PageHeader";
 import ContentSection from "@/components/ui/ContentSection";
 import SideNav from "@/components/ui/SideNav";
+import MobileBottomNav from "@/components/ui/MobileBottomNav";
 import { providerNavItems } from "@/data/navigation";
 
 const Hypotension = () => {
@@ -66,6 +67,8 @@ const Hypotension = () => {
                 While managing the side effects of indicated medications is crucial, it is equally vital to identify and discontinue medications that can cause harm. See: Medications to Avoid in Heart Failure
               </p>
             </ContentSection>
+
+            <MobileBottomNav items={providerNavItems} discipline="provider" />
           </article>
         </div>
       </div>

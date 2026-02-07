@@ -2,6 +2,7 @@ import Layout from "@/components/layout/Layout";
 import PageHeader from "@/components/ui/PageHeader";
 import ContentSection from "@/components/ui/ContentSection";
 import SideNav from "@/components/ui/SideNav";
+import MobileBottomNav from "@/components/ui/MobileBottomNav";
 import AlertBox from "@/components/ui/AlertBox";
 import { providerNavItems } from "@/data/navigation";
 
@@ -67,6 +68,8 @@ const AdvancedHF = () => {
                 Patients with advanced HF should be referred to the PHG Heart Failure service for evaluation of advanced therapies including mechanical circulatory support and heart transplantation.
               </AlertBox>
             </ContentSection>
+
+            <MobileBottomNav items={providerNavItems} discipline="provider" />
           </article>
         </div>
       </div>

@@ -2,6 +2,7 @@ import Layout from "@/components/layout/Layout";
 import PageHeader from "@/components/ui/PageHeader";
 import ContentSection from "@/components/ui/ContentSection";
 import SideNav from "@/components/ui/SideNav";
+import MobileBottomNav from "@/components/ui/MobileBottomNav";
 import { providerNavItems } from "@/data/navigation";
 
 const Ordersets = () => {
@@ -133,6 +134,8 @@ const Ordersets = () => {
                 diagnostic precision while maintaining high-quality, standardized HF care.
               </p>
             </ContentSection>
+
+            <MobileBottomNav items={providerNavItems} discipline="provider" />
           </article>
         </div>
       </div>
