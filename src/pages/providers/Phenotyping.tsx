@@ -57,6 +57,8 @@ const Phenotyping = () => {
                 particularly those presenting as "Cold and Wet" (Profile IV).
               </AlertBox>
 
+              <br></br>
+
               <p className="text-lg mb-6">
                 Accurately classifying a patient's heart failure presentation upon admission is the foundational step
                 for tailoring initial therapy and predicting the clinical course. This requires distinguishing between
