@@ -5,6 +5,8 @@ import SideNav from "@/components/ui/SideNav";
 import MobileBottomNav from "@/components/ui/MobileBottomNav";
 import AlertBox from "@/components/ui/AlertBox";
 import { providerNavItems } from "@/data/navigation";
+import advancedTherapiesImage from "@/assets/advanced-therapies-stage-d.png";
+import palliativeCareImage from "@/assets/palliative-care-inotropes.png";
 
 const AdvancedHF = () => {
   return (
@@ -64,8 +66,40 @@ const AdvancedHF = () => {
                 <li>Intolerance to GDMT due to hypotension or renal dysfunction</li>
               </ul>
 
+              <figure className="my-8">
+                <img 
+                  src={advancedTherapiesImage} 
+                  alt="Navigating Advanced Therapies for Stage D Heart Failure" 
+                  className="w-full rounded-lg shadow-md"
+                />
+                <figcaption className="text-sm text-muted-foreground mt-2 text-center">
+                  Overview of durable mechanical support (LVAD, TAH) and heart transplantation for Stage D heart failure.
+                </figcaption>
+              </figure>
+
               <AlertBox type="warning" title="PHG Referral">
                 Patients with advanced HF should be referred to the PHG Heart Failure service for evaluation of advanced therapies including mechanical circulatory support and heart transplantation.
+              </AlertBox>
+            </ContentSection>
+
+            <ContentSection title="Palliative Care & Inotropic Support">
+              <p className="mb-4">
+                Advanced heart failure (Stage D) often necessitates a holistic approach, integrating interdisciplinary palliative care and, in specific cases, continuous inotropic support to maintain quality of life and manage symptoms.
+              </p>
+
+              <figure className="my-8">
+                <img 
+                  src={palliativeCareImage} 
+                  alt="Managing Stage D Heart Failure: Palliative Care & Inotropic Support" 
+                  className="w-full rounded-lg shadow-md"
+                />
+                <figcaption className="text-sm text-muted-foreground mt-2 text-center">
+                  Integration of palliative care and home inotrope therapy in advanced heart failure management.
+                </figcaption>
+              </figure>
+
+              <AlertBox type="info" title="Palliative Care Consultation">
+                Palliative care consultation is recommended for LVAD evaluation, initiation of palliative inotropes, or consideration for heart transplantation. Early integration improves quality of life and supports shared decision-making.
               </AlertBox>
             </ContentSection>
 
