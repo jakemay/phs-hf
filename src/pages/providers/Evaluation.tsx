@@ -2,6 +2,7 @@ import Layout from "@/components/layout/Layout";
 import PageHeader from "@/components/ui/PageHeader";
 import ContentSection from "@/components/ui/ContentSection";
 import SideNav from "@/components/ui/SideNav";
+import MobileBottomNav from "@/components/ui/MobileBottomNav";
 import { providerNavItems } from "@/data/navigation";
 
 const Evaluation = () => {
@@ -59,6 +60,8 @@ const Evaluation = () => {
                 With the patient's phenotype and risk established, therapeutic efforts must immediately pivot to resolving the primary driver of symptoms and hospitalization: systemic congestion.
               </p>
             </ContentSection>
+
+            <MobileBottomNav items={providerNavItems} discipline="provider" />
           </article>
         </div>
       </div>

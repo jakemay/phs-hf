@@ -2,6 +2,7 @@ import Layout from "@/components/layout/Layout";
 import PageHeader from "@/components/ui/PageHeader";
 import ContentSection from "@/components/ui/ContentSection";
 import SideNav from "@/components/ui/SideNav";
+import MobileBottomNav from "@/components/ui/MobileBottomNav";
 import { nursingNavItems } from "@/data/navigation";
 
 const Education = () => {
@@ -114,6 +115,8 @@ const Education = () => {
                 concerns about a patient's clinical decline.
               </p>
             </ContentSection>
+
+            <MobileBottomNav items={nursingNavItems} discipline="nursing" />
           </article>
         </div>
       </div>

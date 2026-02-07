@@ -2,6 +2,7 @@ import Layout from "@/components/layout/Layout";
 import PageHeader from "@/components/ui/PageHeader";
 import ContentSection from "@/components/ui/ContentSection";
 import SideNav from "@/components/ui/SideNav";
+import MobileBottomNav from "@/components/ui/MobileBottomNav";
 import AlertBox from "@/components/ui/AlertBox";
 import { nursingNavItems } from "@/data/navigation";
 
@@ -155,6 +156,8 @@ const NursingDischarge = () => {
                 understanding of the key components of the discharge plan.
               </AlertBox>
             </ContentSection>
+
+            <MobileBottomNav items={nursingNavItems} discipline="nursing" />
           </article>
         </div>
       </div>

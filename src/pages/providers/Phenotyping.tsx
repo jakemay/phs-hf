@@ -2,6 +2,7 @@ import Layout from "@/components/layout/Layout";
 import PageHeader from "@/components/ui/PageHeader";
 import ContentSection from "@/components/ui/ContentSection";
 import SideNav from "@/components/ui/SideNav";
+import MobileBottomNav from "@/components/ui/MobileBottomNav";
 import ClinicalTable from "@/components/ui/ClinicalTable";
 import AlertBox from "@/components/ui/AlertBox";
 import { providerNavItems } from "@/data/navigation";
@@ -77,6 +78,8 @@ const Phenotyping = () => {
                 With the patient's phenotype established, the next step is a comprehensive evaluation to quantify risk and further guide the intensity of care.
               </p>
             </ContentSection>
+
+            <MobileBottomNav items={providerNavItems} discipline="provider" />
           </article>
         </div>
       </div>

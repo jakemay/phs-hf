@@ -2,6 +2,7 @@ import Layout from "@/components/layout/Layout";
 import PageHeader from "@/components/ui/PageHeader";
 import ContentSection from "@/components/ui/ContentSection";
 import SideNav from "@/components/ui/SideNav";
+import MobileBottomNav from "@/components/ui/MobileBottomNav";
 import AlertBox from "@/components/ui/AlertBox";
 import { nursingNavItems } from "@/data/navigation";
 
@@ -66,6 +67,8 @@ const Escalation = () => {
                 As the liaison between the patient and the medical team, the nurse's timely and accurate assessments are what enable the team to adjust the treatment plan. This role culminates in ensuring a safe transition out of the hospital.
               </AlertBox>
             </ContentSection>
+
+            <MobileBottomNav items={nursingNavItems} discipline="nursing" />
           </article>
         </div>
       </div>
