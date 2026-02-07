@@ -38,7 +38,10 @@ const nursingAssessmentFindings = [
 
 const commonCauses = [
   { cause: "Dietary Indiscretion", nursingAction: "Reinforce low-sodium diet education; assess for knowledge gaps" },
-  { cause: "Medication Non-Compliance", nursingAction: "Medication reconciliation; identify barriers (cost, access, understanding)" },
+  {
+    cause: "Medication Non-Compliance",
+    nursingAction: "Medication reconciliation; identify barriers (cost, access, understanding)",
+  },
   { cause: "Infections", nursingAction: "Monitor for signs of infection; report fever promptly" },
   { cause: "Arrhythmias", nursingAction: "Telemetry monitoring; report irregular rhythms immediately" },
   { cause: "Ischemia/ACS", nursingAction: "Monitor for chest pain; obtain ECG if symptoms present" },
@@ -52,10 +55,7 @@ const NursingExacerbations = () => {
         title="Recognizing HF Exacerbation Triggers"
         subtitle="Nursing assessment and early identification of decompensation causes"
         discipline="nursing"
-        breadcrumbs={[
-          { label: "Nursing", href: "/nursing/assessment" },
-          { label: "HF Exacerbations" },
-        ]}
+        breadcrumbs={[{ label: "Nursing", href: "/nursing/assessment" }, { label: "HF Exacerbations" }]}
       />
 
       <div className="container mx-auto px-4 py-8">
@@ -67,17 +67,19 @@ const NursingExacerbations = () => {
           <article className="max-w-4xl">
             <ContentSection>
               <p className="text-lg mb-6">
-                Nurses play a critical role in identifying the triggers that lead to heart failure exacerbation. Early recognition of these factors enables prompt intervention and helps prevent further deterioration.
+                Nurses play a critical role in identifying the triggers that lead to heart failure exacerbation. Early
+                recognition of these factors enables prompt intervention and helps prevent further deterioration.
               </p>
 
               <figure className="my-8">
-                <img 
-                  src={hfStabilityImage} 
-                  alt="Heart Failure: The Spectrum of Stability vs. Crisis" 
+                <img
+                  src={hfStabilityImage}
+                  alt="Heart Failure: The Spectrum of Stability vs. Crisis"
                   className="w-full rounded-lg shadow-md"
                 />
                 <figcaption className="text-sm text-muted-foreground mt-2 text-center">
-                  Understanding the transition from compensated to decompensated heart failure guides nursing assessment priorities.
+                  Understanding the transition from compensated to decompensated heart failure guides nursing assessment
+                  priorities.
                 </figcaption>
               </figure>
             </ContentSection>
@@ -95,8 +97,11 @@ const NursingExacerbations = () => {
 
             <ContentSection title="Most Common Causes & Nursing Actions">
               <AlertBox type="info" title="Nursing Focus">
-                The most common causes of HF exacerbation are often modifiable through patient education and close monitoring. Identifying these early can prevent hospitalization.
+                The most common causes of HF exacerbation are often modifiable through patient education and close
+                monitoring. Identifying these early can prevent hospitalization.
               </AlertBox>
+
+              <br></br>
 
               <ClinicalTable
                 columns={[
