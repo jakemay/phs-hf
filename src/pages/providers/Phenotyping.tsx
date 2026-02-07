@@ -41,7 +41,7 @@ const Phenotyping = () => {
         title="Admission Phenotyping"
         subtitle="De Novo vs. Acute-on-Chronic and Hemodynamic Profiles"
         discipline="provider"
-        breadcrumbs={[{ label: "Providers", href: "/providers/ordersets" }, { label: "Admission Phenotyping" }]}
+        breadcrumbs={[{ label: "Providers", href: "/providers/phenotyping" }, { label: "Admission Phenotyping" }]}
       />
 
       <div className="container mx-auto px-4 py-8">
