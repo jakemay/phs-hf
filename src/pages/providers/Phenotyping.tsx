@@ -6,6 +6,7 @@ import MobileBottomNav from "@/components/ui/MobileBottomNav";
 import ClinicalTable from "@/components/ui/ClinicalTable";
 import AlertBox from "@/components/ui/AlertBox";
 import { providerNavItems } from "@/data/navigation";
+import forresterImage from "@/assets/forrester-classification.png";
 
 const profileData = [
   {
@@ -61,6 +62,17 @@ const Phenotyping = () => {
             </ContentSection>
 
             <ContentSection title="Forrester Hemodynamic Profiles">
+              <figure className="my-6">
+                <img 
+                  src={forresterImage} 
+                  alt="Forrester Classification of Acute Heart Failure" 
+                  className="w-full rounded-lg shadow-md"
+                />
+                <figcaption className="text-sm text-muted-foreground mt-2 text-center">
+                  The Forrester classification uses cardiac index (CI) and pulmonary capillary wedge pressure (PCWP) to define hemodynamic profiles.
+                </figcaption>
+              </figure>
+
               <ClinicalTable
                 columns={[
                   { key: "profile", header: "Profile" },
