@@ -19,6 +19,7 @@ import MedicationsToAvoid from "./pages/providers/MedicationsToAvoid";
 import AdvancedHF from "./pages/providers/AdvancedHF";
 import Discharge from "./pages/providers/Discharge";
 import FluidManagement from "./pages/providers/FluidManagement";
+import Resources from "./pages/providers/Resources";
 
 // Nursing pages
 import NursingAssessment from "./pages/nursing/Assessment";
@@ -60,6 +61,7 @@ const App = () => (
           <Route path="/providers/advanced-hf" element={<AdvancedHF />} />
           <Route path="/providers/discharge" element={<Discharge />} />
           <Route path="/providers/fluid-management" element={<FluidManagement />} />
+          <Route path="/providers/resources" element={<Resources />} />
           
           {/* Nursing routes */}
           <Route path="/nursing/assessment" element={<NursingAssessment />} />

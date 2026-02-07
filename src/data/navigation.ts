@@ -11,6 +11,7 @@ export const providerNavItems = [
   { title: "Medications to Avoid", href: "/providers/medications-to-avoid", section: "Safety" },
   { title: "Discharge Planning", href: "/providers/discharge", section: "Transitions" },
   { title: "Fluid Management", href: "/providers/fluid-management", section: "Transitions" },
+  { title: "Resources", href: "/providers/resources", section: "Reference" },
 ];
 
 export const nursingNavItems = [
